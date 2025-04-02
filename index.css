@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+    }
+
+    
+a {
+    text-decoration: none;
+} 
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background: #1B244A;
+    padding-bottom: 10%;
+   
+}
+
+
+h3 {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+
+}
+
+.box {
+    width: 155;
+    height: 120; 
+    position: auto;
+    width: 155px;
+    height: 120px;
+    top: 0;
+    left: 0;
+    background-color: #080001;
+    border-radius: 5px;    
+}
+
+
+
+h2 {
+    position: relative;
+    width: 117px;
+    height: 120px;
+    top: -195;
+    left: 20;
+    font-family: "Cursed Timer ULiL", Helvetica;
+    font-weight: 400;
+    color: #f94f6d;
+    font-size: 90px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 126.7px;
+    white-space: nowrap;
+
+}
+
+
+button {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #99aad7;
+    font-family: "Cursed Timer ULiL-Regular", Helvetica;
+    font-weight: 400;
+    color: #99aad7;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27.8px;
+    white-space: nowrap;
+    background-color: #1B244A;
+
+}
+
+#plus-one-point {
+    position: relative;
+    top: -250;
+    left: 5;
+}
+
+#plus-two-point{
+    position: relative;
+    top: -250;
+    left: 5;
+
+}
+
+#plus-three-point{
+    position: relative;
+    top: -250;
+    left: 5;
+
+}
+
+#newgame {
+    position: fixed;
+    top: 150;
+    width: 200px;
+    height: 45px;
+
+}
+
+
+
+
+
